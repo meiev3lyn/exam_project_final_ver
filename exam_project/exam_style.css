@@ -364,24 +364,17 @@ height: 47px;
 background-color: transparent;
 color: white;
 }
-.subscribe button:hover {
-background-color: #ac4962;
-border: none;
-color: rgb(255, 255, 255);
-}
-.media:not(.email){
+.media{
 display: flex;
 position: absolute;
 justify-content:right;
 width: 1970px;
 margin-right: 130px;
 margin-top: 22px;
+padding-left: 40px;
 }
 .media li{
 padding: 16px;
-}
-.media{
-  padding-left: 40px;
 }
 .all{
   display: flex;
