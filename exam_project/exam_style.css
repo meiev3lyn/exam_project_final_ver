@@ -12,7 +12,7 @@ body{
 .nav_bar h1{
   text-transform: uppercase;
   line-height: 24px;
-  padding-left: 70px;
+  padding-left: 50px;
 }
 .nav_bar {
   display: flex;
@@ -20,7 +20,6 @@ body{
   justify-content: center;
   top: 1px;
   background: rgb(255, 255, 255);
-  background-blend-mode: darken;
   background-size: cover;
   color: #128C76;
   padding: 10px 20px;
@@ -50,6 +49,7 @@ button:not(.send){
   padding-left: 40px;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .login{
   border: none;
@@ -225,7 +225,7 @@ img .img{
   justify-content:center;
   align-items: center;
   height: 601px;
-  gap: 60px;
+  gap: 85px;
 }
 .application{
   width: 570px;
